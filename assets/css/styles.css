@@ -31,6 +31,62 @@
     src: url(../fonts/TiemposHeadline-Semibold.woff);
 }
 
+/* default website start */
+
+#hero p:nth-of-type(2),
+p,
+li {
+    font-family: 'thein';
+}
+
+header a,
+#hero p:nth-of-type(1),
+h4 {
+font-family: 'graMed';
+}
+
+header nav,
+h3 {
+    font-family: 'graReg';
+}
+
+h1,
+h2 {
+    font-family: 'tiem';
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p,
+li,
+span {
+    font-size: 1.2rem;
+}
+
+li {
+    color: var(--gray2);
+}
+
+h2,
+h4,
+nav li {
+    color: var(--black1);
+}
+
+ul {
+    list-style: none;
+}
+
+/* default website end */
+
+
+
 /* header start */
 
 header {
@@ -48,21 +104,22 @@ header li {
     padding-right: 2vw;
 }
 
-header nav {
-    font-family: 'graReg';
-}
-
 header h1 {
-    font-family: 'tiem';
+    margin-right: 10vw;
 }
 
 header a {
-    font-family: 'graMed';
     text-decoration: none;
     border: 1px solid var(--black1);
     border-radius: 5px;
-    color: var (var(--black1));
+    color: var(--black1);
     padding: 1vh 3vw;
+    transition: .5s;
+}
+
+header a:hover {
+    background-color: var(--black1);
+    color: var(--white);
 }
 
 /* header end */
@@ -72,10 +129,95 @@ header a {
 
 #hero h3 {
     text-align: center;
-    font-family: 'graReg';
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin: 10vh auto 8vh;
 }
 
 #hero img {
     width: 100vw;
 }
+
+#hero aside {
+    display: flex;
+    align-items: center;
+}
+
+#hero p:nth-of-type(1) {
+    width: 50vw;
+    line-height: 3vh;
+    margin: 20vh 5vw 20vh 10vw;
+}
+
+#hero p:nth-of-type(2) {
+    font-size: 4rem;
+}
+
+#hero span {
+    display: flex;
+    width: 15vw;
+    color: var(--gray1);
+}
+
+/* hero end */
+
+
+
+/* deliverables start */
+
+#deliVer {
+    display: flex;
+}
+
+#deliVer img {
+    margin-left: 10vw;
+    height: 100%;
+    width: 40%;
+}
+
+#deliVer ul {
+    width: 60%;
+    margin-right: 10vw;
+}
+
+#deliVer h2 {
+    margin-top: 0;
+}
+
+/* deliverables end */
+
+
+
+/* howItWorks start */
+
+#howItWorks {
+    background-color: #F1F1F4;
+    margin: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+#howItWorks ul {
+    width: 40vw;
+    padding-left: 3.5vw;
+}
+
+#howItWorks h2 {
+    margin: 2vh auto;
+}
+
+#howItWorks img {
+    width: 40vw;
+    height: 100%;
+}
+
+/* howItWorks end */
+
+
+
+/* critique start */
+
+#critique {
+    text-align: center;
+}
+
+/* critique end */
