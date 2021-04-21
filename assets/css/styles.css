@@ -1,0 +1,81 @@
+/* colors */
+
+:root {
+    --black1: #2B2C2E;
+    --gray1: #9FA2A7;
+    --black2: #27282A;
+    --gray2: #848689;
+    --darkGray: #3D3E41;
+    --white: #fff;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'graMed';
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'graReg' ;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: 'thein' ;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+@font-face {
+    font-family: 'tiem' ;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+/* header start */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    padding: 0%;
+}
+
+header li {
+    display: inline-flex;
+    padding-right: 2vw;
+}
+
+header nav {
+    font-family: 'graReg';
+}
+
+header h1 {
+    font-family: 'tiem';
+}
+
+header a {
+    font-family: 'graMed';
+    text-decoration: none;
+    border: 1px solid var(--black1);
+    border-radius: 5px;
+    color: var (var(--black1));
+    padding: 1vh 3vw;
+}
+
+/* header end */
+
+
+/* hero start */
+
+#hero h3 {
+    text-align: center;
+    font-family: 'graReg';
+    font-size: 2rem;
+}
+
+#hero img {
+    width: 100vw;
+}
