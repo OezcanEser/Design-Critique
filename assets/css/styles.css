@@ -218,6 +218,66 @@ header a:hover {
 
 #critique {
     text-align: center;
+    color: var(--gray1);
+}
+
+#critique p {
+    line-height: 5vh;
+}
+
+#critique > img {
+    margin: 12.5vh auto 0;
+    width: 100%;
+}
+
+#critique aside {
+    position: relative;
+}
+
+#critique aside p {
+    font-family: 'graMed';
+    color: var(--gray2);
+    text-align: left;
+    margin-left: 20vw;
+    margin-top: -3vh;
+}
+
+#critique aside img {
+    position: absolute;
+    width: 40vw;
+    top: -7vh;
 }
 
 /* critique end */
+
+
+/* footer start */
+
+footer {
+    text-align: center;
+    margin-top: 20vh;
+    padding: 0 10vw ;
+}
+
+footer h2 {
+    border-top: 1px solid var(--black2);
+    padding-top: 10vh;
+}
+
+footer p {
+    font-family: 'graMed';
+    font-size: 1rem;
+    color: var(--gray1);
+    margin-bottom: 5vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--darkGray);
+}
+
+footer img {
+    width: 10%;
+}
+
+/* footer end */
